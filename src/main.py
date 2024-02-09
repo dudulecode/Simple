@@ -6,7 +6,7 @@ import sys
 program_file_path = sys.argv[1]
 program_lines = []
 
-error_message = ["simple: did you miss the ';' at the end of a line in your code? :)", "simple: simple: '" + program_file_path + "': [Errno 2] No such file or directory"]
+error_message = ["simple: did you miss the ';' at the end of a line in your code? :)", "simple: simple: '" + program_file_path + "': [FileError] No such file or directory"]
 
 def show_error(error):
     messagebox.showerror("Error", error)
